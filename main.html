@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+body{
+  background-color:blue;
+    }
+.many{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:2px solid black;
+    }
+
+</style>
+<body>
+<div class="many">
+<form action="/action_page.php">
+  
+  <label for="name"><strong>enter your full name:</strong></label><br>
+  <input type="text" id="name" name="name" size="50" required><br><br>
+  <label for="gender"><strong>choose your gender:</strong></label><br>
+  <input type="radio" id="gender" name="gender" value="male" required>
+  <label for="male"><i>male</i></label><br>
+  <input type="radio" id="gender" name="gender" value="male">
+  <label for="female"><i>female</i></label><br>
+  <input type="radio" id="gender" name="gender" value="male">
+  <label for="none"><i>none</i></label><br><br>
+  <label for="birthday"><strong>enter your date of birth:</strong></label><br>
+  <input type="date" id="date of birth" name="date of birth" required><br><br>
+  <label for="age"><strong>enter your present age:</strong></label><br>
+  <input type="range" id="age" name="age" min="0" max="120"><br><br>
+  <label for="email"><strong>Enter your email address:</strong></label><br>
+  <input type="email" id="email" name="email" required><br><br>
+  <label for="hobbies"><strong>choose your hobbies:</strong></label><br>
+  <input type="checkbox" id="hobby1" name="hobby1" value="dancing">
+  <label for="dancing"><i>dancing</i></label><br>
+  <input type="checkbox" id="hobby2" name="hobby2" value="singing">
+  <label for="singing"><i>singing</i></label><br>
+  <input type="checkbox" id="hobby3" name="hobby3" value="reading">
+  <label for="reasing"><i>reading</i></label><br>
+  <input type="checkbox" id="hobby4" name="hobby4" value="cycling">
+  <label for="cycling"><i>cycling</i></label><br>
+  <input type="checkbox" id="hobby5" name="hobby5" value="playing">
+  <label for="playing"><i>playing</i></label><br>
+  <input type="checkbox" id="hobby6" name="hobby6" value="coding">
+  <label for="coding"><i>coding</i></label><br>
+  <input type="checkbox" id="hobby7" name="hobby7" value="sleeping">
+  <label for="sleeping"><i>sleeping</i></label><br><br>
+  <label for="photo"><strong>choose a picture of yourself:</strong></label><br>
+  <label for="myphoto">Select a file</label>
+  <input type="file" id="myphoto" name="myphoto" required><br><br>
+  <label for="phone"><strong>enter your phone number:</strong></label>
+  <input type="number" id="phone" name="phone" required><br><br>
+  <label for="phone"><strong>Enter your telephone number:</strong></label>
+  <input type="tel" id="telephone" name="telephone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+  <label for="aadhar number"><strong>Enter aadhar card number:</strong></label>
+  <input type="tel" id="aadhar" name="aadhar" placeholder="1234-5678-9001" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" required><br><br>
+  <label for="aadhar"><strong>choose a picture of your aadhar card:</strong></label><br>
+  <label for="myaadhar">Select a file</label>
+  <input type="file" id="myaadhar" name="myaadhar" required><br><br>
+  <label for="sign"><strong>choose a picture of your signature:</strong></label><br>
+  <label for="mysign">Select a file</label>
+  <input type="file" id="mysign" name="mysign" required><br><br>
+  <label for="pincode"><strong>enter your pincode:</strong></label>
+  <input type="text" id="pincode" name="pincode" maxlength="6" size="6"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+  </form>
+  </div>
+  </body>
+  </html>
